@@ -1,11 +1,11 @@
-package com.penninkhof.odata.entities;
+package com.leerbennett.odata.entities;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
-import com.penninkhof.odata.annotations.SAPLineItem;
-import com.penninkhof.odata.annotations.Sap;
+import com.leerbennett.odata.annotations.SAPLineItem;
+import com.leerbennett.odata.annotations.Sap;
 
 @Entity
 @Table(name="members")
