@@ -1,4 +1,4 @@
-package com.penninkhof.odata.utils;
+package com.leerbennett.odata.utils;
 
 import java.io.InputStream;
 import java.lang.reflect.Field;
@@ -21,8 +21,8 @@ import org.apache.olingo.odata2.api.edm.provider.Schema;
 import org.apache.olingo.odata2.jpa.processor.api.model.JPAEdmSchemaView;
 import org.apache.olingo.odata2.jpa.processor.core.model.JPAEdmMappingImpl;
 
-import com.penninkhof.odata.annotations.SAPLineItem;
-import com.penninkhof.odata.annotations.Sap;
+import com.leerbennett.odata.annotations.SAPLineItem;
+import com.leerbennett.odata.annotations.Sap;
 
 public class JPAEdmExtension implements org.apache.olingo.odata2.jpa.processor.api.model.JPAEdmExtension {
 

@@ -1,4 +1,4 @@
-package com.penninkhof.odata.utils;
+package com.leerbennett.odata.utils;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

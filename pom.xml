@@ -4,8 +4,8 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.penninkhof</groupId>
-    <artifactId>odata</artifactId>
+    <groupId>com.leerbennett</groupId>
+    <artifactId>simGame</artifactId>
     <version>0.1.0</version>
     <packaging>${packaging.type}</packaging>
 
