@@ -10,7 +10,7 @@ public class Player {
 	@Id
 	private int id;
 	private int gameId;
-	private int userId;
+	private int memberId;
     private String creator;
 
     public Player() {
@@ -52,12 +52,12 @@ public class Player {
 		this.gameId = gameId;
 	}
 
-	public int getUserId() {
-		return userId;
+	public int getMemberId() {
+		return memberId;
 	}
 
-	public void setUserId(int userId) {
-		this.userId = userId;
+	public void setMemberId(int userId) {
+		this.memberId = userId;
 	}
 	
 }

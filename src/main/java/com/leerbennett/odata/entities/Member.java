@@ -18,6 +18,8 @@ public class Member {
 	@Sap(filterable=true, sortable=true)
 	@SAPLineItem
     private String lastName;
+	private String sapIdpId;
+	private String screenName;
 
     public Member() {}
 
@@ -56,6 +58,22 @@ public class Member {
 
 	public void setLastName(String lastName) {
 		this.lastName = lastName;
+	}
+
+	public String getSapIdpId() {
+		return sapIdpId;
+	}
+
+	public void setSapIdpId(String sapIdpId) {
+		this.sapIdpId = sapIdpId;
+	}
+
+	public String getScreenName() {
+		return screenName;
+	}
+
+	public void setScreenName(String screenName) {
+		this.screenName = screenName;
 	}
 	
 }
