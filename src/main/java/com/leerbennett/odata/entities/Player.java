@@ -12,6 +12,7 @@ public class Player {
 	private int gameId;
 	private int memberId;
     private String creator;
+    private int waitDelay;
 
     public Player() {
     }
@@ -58,6 +59,14 @@ public class Player {
 
 	public void setMemberId(int userId) {
 		this.memberId = userId;
+	}
+
+	public int getWaitDelay() {
+		return waitDelay;
+	}
+
+	public void setWaitDelay(int waitDelay) {
+		this.waitDelay = waitDelay;
 	}
 	
 }
